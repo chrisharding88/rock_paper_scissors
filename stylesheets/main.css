@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: 'Righteous', cursive;
+
+}
+
+body{
+	background-color: #7c0707
+}
+
+
+header{
+	text-align: center;
+	background-color: #11115e;
+	padding: 50px;
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.score-board{
+	border: solid 10px white;
+	position: relative;
+	width: 250px;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 65px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.player{
+	background-color:#11115e ;
+	color: white;
+	padding: 10px; 
+}
+
+#user{
+	position: absolute;
+	top: 30px;
+	left:-132px;
+	font-size:40px; 
+}
+
+#comp{
+	position: absolute;
+	top: 30px;
+	left:300px;
+	font-size:40px;
+
+
+}
+
+#user-score,
+#comp-score{
+	font-family: 'Press Start 2P', cursive;
+	padding: 20px;
+}
+
+
+
+.result{
+	text-align: center;
+	font-size: 45px;
+	padding-top: 30px;
+}
+
+.icon{
+	display: inline;
+
+}
+
+img{
+	padding:30px;
+	width: 130px;
+	height: 150px;
+	margin-top: 80px;
+	margin-left: 320px;
+	border-style: solid;
+	border-radius: 50%;
+}
+
+.message{
+	margin-top: 60px;
+	text-align: center;
+	font-size: 45px;
+}
